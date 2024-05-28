@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5F4E0-705A-4ADB-A2F9-B8A9472A23BD}|AutDataProcSystem\\AutDataProcSystem.csproj|c:\\users\\yaroslav\\desktop\\\u0441\u0430\u043E\u0434\u043E\\autdataprocsystem\\autdataprocsystem\\maingeneralpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6CE5F4E0-705A-4ADB-A2F9-B8A9472A23BD}|AutDataProcSystem\\AutDataProcSystem.csproj|solutionrelative:autdataprocsystem\\maingeneralpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5F4E0-705A-4ADB-A2F9-B8A9472A23BD}|AutDataProcSystem\\AutDataProcSystem.csproj|c:\\users\\yaroslav\\desktop\\\u0441\u0430\u043E\u0434\u043E\\autdataprocsystem\\autdataprocsystem\\maingeneralpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5F4E0-705A-4ADB-A2F9-B8A9472A23BD}|AutDataProcSystem\\AutDataProcSystem.csproj|solutionrelative:autdataprocsystem\\maingeneralpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5F4E0-705A-4ADB-A2F9-B8A9472A23BD}|AutDataProcSystem\\AutDataProcSystem.csproj|C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\autdataprocsystem\\databaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5F4E0-705A-4ADB-A2F9-B8A9472A23BD}|AutDataProcSystem\\AutDataProcSystem.csproj|solutionrelative:autdataprocsystem\\databaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5F4E0-705A-4ADB-A2F9-B8A9472A23BD}|AutDataProcSystem\\AutDataProcSystem.csproj|c:\\users\\yaroslav\\desktop\\\u0441\u0430\u043E\u0434\u043E\\autdataprocsystem\\autdataprocsystem\\feedinguserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5F4E0-705A-4ADB-A2F9-B8A9472A23BD}|AutDataProcSystem\\AutDataProcSystem.csproj|solutionrelative:autdataprocsystem\\feedinguserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainGeneralPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\AutDataProcSystem\\MainGeneralPage.xaml.cs",
+              "RelativeDocumentMoniker": "AutDataProcSystem\\MainGeneralPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\AutDataProcSystem\\MainGeneralPage.xaml.cs",
+              "RelativeToolTip": "AutDataProcSystem\\MainGeneralPage.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowEcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:58:22.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FeedingUserPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\AutDataProcSystem\\FeedingUserPage.xaml.cs",
+              "RelativeDocumentMoniker": "AutDataProcSystem\\FeedingUserPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\AutDataProcSystem\\FeedingUserPage.xaml.cs",
+              "RelativeToolTip": "AutDataProcSystem\\FeedingUserPage.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwFIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:17:52.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseConnect.cs",
+              "DocumentMoniker": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\AutDataProcSystem\\DatabaseConnect.cs",
+              "RelativeDocumentMoniker": "AutDataProcSystem\\DatabaseConnect.cs",
+              "ToolTip": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\AutDataProcSystem\\DatabaseConnect.cs",
+              "RelativeToolTip": "AutDataProcSystem\\DatabaseConnect.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAswD8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:16:13.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainGeneralPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\AutDataProcSystem\\MainGeneralPage.xaml",
+              "RelativeDocumentMoniker": "AutDataProcSystem\\MainGeneralPage.xaml",
+              "ToolTip": "C:\\Users\\Yaroslav\\Desktop\\\u0421\u0410\u041E\u0414\u041E\\AutDataProcSystem\\AutDataProcSystem\\MainGeneralPage.xaml",
+              "RelativeToolTip": "AutDataProcSystem\\MainGeneralPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T08:58:04.746Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

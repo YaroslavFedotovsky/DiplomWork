@@ -1,0 +1,82 @@
+﻿<Page x:Class="AutDataProcSystem.MainAdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AutDataProcSystem"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainAdminPage">
+
+    <Grid>
+        <!-- Задний фон приложения -->
+        <Image Source="/Resources/field1.jpeg" Stretch="UniformToFill"/>
+
+        <Border BorderBrush="Gray" BorderThickness="1" Background="White" Opacity="0.5"/>
+
+        <!-- Иконка и название роли -->
+        <StackPanel Orientation="Horizontal" Height="62" Width="180" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image Source="/Resources/Admin.png" Width="45" HorizontalAlignment="Left" />
+            <TextBlock Text="Администратор" Width="120" Margin="10 24 10 0" FontFamily="Arial" FontSize="15"/>
+        </StackPanel>
+
+        <!-- Название организации -->
+        <StackPanel HorizontalAlignment="Center" Margin="0 20 0 0">
+            <TextBlock Text="Панель Администратора" FontFamily="Book Antiqua" FontSize="28" FontWeight="DemiBold" />
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" Margin="0 100 0 0">
+            <TextBlock Text="Действия" FontFamily="Book Antiqua" FontSize="24" FontWeight="DemiBold" />
+        </StackPanel>
+
+        <!-- Кнопка перехода на страницу CreateUserPage -->
+        <Button Content="Добавление пользователя" HorizontalAlignment="Left" Margin="50,200,0,0" VerticalAlignment="Top" Height="42" Width="300" Click="GoToCreate_Click" Style="{StaticResource MainUser_Button}">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <!-- Кнопка перехода на страницу UpdateUserPage -->
+        <Button Content="Редактирование пользователя" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Width="300" Margin="50,300,0,0" Click="GoToUpdate_Click" Style="{StaticResource MainUser_Button}">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <!-- Кнопка перехода на страницу OrganizationPage -->
+        <Button Content="Организации" HorizontalAlignment="Right" VerticalAlignment="Top" Height="42" Width="300" Margin="0,200,50,20" Click="GoToOrganization_Click" Style="{StaticResource MainUser_Button}">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <!-- Кнопка перехода на страницу CulturePage -->
+        <Button Content="Посевные культуры" HorizontalAlignment="Right" VerticalAlignment="Top" Height="42" Width="300" Margin="0,300,50,50" Click="GoToCulture_Click" Style="{StaticResource MainUser_Button}">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <!-- Кнопка перехода обратно на страницу AuthorizationPage -->
+        <StackPanel VerticalAlignment="Bottom" Margin="0 0 0 20">
+            <Button Content="Страница Авторизации" Width="206" Click="GoToAnotherPage_Click">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+                <Button.Style>
+                    <StaticResource ResourceKey="BackToAuthPage_Button"/>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+
+        <Frame x:Name="contentFrame" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+
+    </Grid>
+</Page>

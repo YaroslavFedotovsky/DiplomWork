@@ -1,0 +1,34 @@
+﻿<Application x:Class="AutDataProcSystem.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AutDataProcSystem"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="MainUser_Button" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FFF4A460"/>
+            <Setter Property="BorderBrush" Value="#FFCD853F"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontFamily" Value="Leelawadee"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+        </Style>
+
+        <Style x:Key="BackToAuthPage_Button" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FFCD853F"/>
+            <Setter Property="BorderBrush" Value="#FFCD853F"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Leelawadee"/>
+        </Style>
+
+        <Style x:Key="MainGeneral_Button" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FFF4A460"/>
+            <Setter Property="BorderBrush" Value="#FFCD853F"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Leelawadee"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+        </Style>
+
+    </Application.Resources>
+</Application>
